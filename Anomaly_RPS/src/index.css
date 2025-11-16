@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-white text-gray-900 font-poppins;
+  }
+}
+
+@layer components {
+  .police-gradient {
+    @apply bg-gradient-to-r from-police-navy via-police-navy to-[#2d3c56];
+  }
+  
+  .police-card {
+    @apply bg-white rounded-lg border border-gray-200 shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300;
+  }
+  
+  .police-button {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-police-navy focus-visible:ring-offset-2 disabled:opacity-50;
+  }
+  
+  .police-button-primary {
+    @apply police-button bg-police-navy text-white hover:bg-opacity-90;
+  }
+  
+  .police-button-saffron {
+    @apply police-button bg-police-saffron text-white hover:bg-opacity-90;
+  }
+  
+  .police-button-gold {
+    @apply police-button bg-police-gold text-police-navy hover:bg-opacity-90 border border-police-gold;
+  }
+}
