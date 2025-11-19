@@ -137,7 +137,7 @@ function App() {
             <Route path="/complaint/new" element={<div>File Complaint Page</div>} />
             <Route path="/complaint/track" element={<div>Track Case Page</div>} />
             <Route path="/sos" element={<div>Emergency SOS Page</div>} />
-            <Route path="/learn" element={<div>Law Learning Page</div>} />
+            {/* <Route path="/learn" element={<div>Law Learning Page</div>} /> */}
             <Route path="/heatmap" element={<div>Safety Map Page</div>} />
             <Route path="/profile" element={<div>Profile Page</div>} />
             <Route path="/profile/settings" element={<div>Settings Page</div>} />

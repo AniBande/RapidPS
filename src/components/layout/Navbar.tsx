@@ -30,7 +30,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Shield className="h-8 w-8" />
-            <span className="font-bold text-xl tracking-tight">RPS</span>
+            <span className="font-bold text-xl tracking-tight">SAMARTH</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link to="/complaint/new" className="hover:text-police-gold transition-colors">File Complaint</Link>
             <Link to="/complaint/track" className="hover:text-police-gold transition-colors">Track Case</Link>
             <Link to="/sos" className="hover:text-police-gold transition-colors">Emergency SOS</Link>
-            <Link to="/learn" className="hover:text-police-gold transition-colors">Law Learning</Link>
+            <a href="http://localhost:8081/" className="hover:text-police-gold transition-colors" target="_blank" rel="noopener noreferrer">Law Learning</a>
             {/* updated path */}
             <Link to="/safety-map" className="hover:text-police-gold transition-colors">Safety Map</Link>
           </nav>
@@ -120,7 +120,7 @@ const Navbar = () => {
             <Link to="/complaint/new" className="block py-2 hover:text-police-gold transition-colors">File Complaint</Link>
             <Link to="/complaint/track" className="block py-2 hover:text-police-gold transition-colors">Track Case</Link>
             <Link to="/sos" className="block py-2 hover:text-police-gold transition-colors">Emergency SOS</Link>
-            <Link to="/learn" className="block py-2 hover:text-police-gold transition-colors">Law Learning</Link>
+            <a href="http://localhost:8081/" className="block py-2 hover:text-police-gold transition-colors" target="_blank" rel="noopener noreferrer">Law Learning</a>
             {/* updated path */}
             <Link to="/safety-map" className="block py-2 hover:text-police-gold transition-colors">Safety Map</Link>
             <Link to="/profile" className="block py-2 hover:text-police-gold transition-colors">Profile</Link>

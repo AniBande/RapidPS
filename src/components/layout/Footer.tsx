@@ -13,10 +13,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <Shield className="h-8 w-8" />
-              <span className="font-bold text-xl tracking-tight">RPS</span>
+              <span className="font-bold text-xl tracking-tight">SAMARTH</span>
             </div>
             <p className="text-gray-300 text-sm">
-              The Rapid Police System (RPS) is dedicated to streamlining police-citizen interactions,
+              The SAMARTH is dedicated to streamlining police-citizen interactions,
               ensuring swift responses, and providing transparent case tracking.
             </p>
           </div>

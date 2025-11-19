@@ -26,7 +26,7 @@ const App = () => (
           <Route path="/complaint/new" element={<ComplaintForm />} />
           <Route path="/complaint/track" element={<TrackCase />} />
           <Route path="/sos" element={<EmergencySOS />} />
-          <Route path="/learn" element={<LawLearning />} />
+          {/* <Route path="/learn" element={<LawLearning />} /> */}
 
           {/* canonical safety map route */}
           <Route path="/safety-map" element={<SafetyMap />} />

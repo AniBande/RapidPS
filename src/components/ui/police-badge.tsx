@@ -25,7 +25,7 @@ const PoliceBadge = ({ className, size = 'md', withText = true }: PoliceBadgePro
         <div className="absolute inset-[15%] border-2 border-police-gold rounded-full ashoka-chakra">
           <div className="absolute inset-0 flex items-center justify-center">
             <span className="text-police-gold font-bold">
-              {size === 'sm' ? 'RPS' : size === 'md' ? 'RPS' : 'RPS'}
+              {size === 'sm' ? 'SAMARTH' : size === 'md' ? 'SAMARTH' : 'SAMARTH'}
             </span>
           </div>
         </div>
@@ -34,8 +34,8 @@ const PoliceBadge = ({ className, size = 'md', withText = true }: PoliceBadgePro
       {/* Text */}
       {withText && (
         <div className="flex flex-col">
-          <span className="font-bold text-police-navy">RPS</span>
-          <span className="text-xs text-gray-600">Rapid Police System</span>
+          <span className="font-bold text-police-navy">SAMARTH</span>
+          <span className="text-xs text-gray-600"></span>
         </div>
       )}
     </div>
